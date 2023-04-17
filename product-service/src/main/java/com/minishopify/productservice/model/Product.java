@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Builder
 @Data
-public class Product {
+public abstract Product {
 
     @Id
     private String id;
